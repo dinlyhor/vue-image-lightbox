@@ -75,7 +75,7 @@
             <div class="vue-lb-footer">
               <div class="vue-lb-footer-info" />
               <div
-                v-if="media.length > 1"
+                v-if="media.length >= 1"
                 class="vue-lb-footer-count"
               >
                 <slot
